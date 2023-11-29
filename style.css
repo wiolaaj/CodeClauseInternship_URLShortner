@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/bgg.png);
+    background-color: hotpink;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px; 
+}
+
+.container{
+    background-color: #f3cef3df;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 1.2rem;
+    border-radius: 25px;
+    
+}
+
+label{
+    padding: 10px;
+    color: black;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'EB Garamond', serif;
+    text-underline-position: initial;
+}
+
+#url{
+    padding: 7px;
+}
+
+#url::placeholder{
+    text-align: center;
+    color: rgb(230, 71, 140);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-weight: 900;
+    text-align: center;
+}
+
+input{
+    width:400px;
+    height:40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 25px;
+    color:#372e9edf;
+}
+#btn{
+    background-color: rgba(172, 38, 224, 0.995);
+    border:none;
+    padding: 10px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-weight: 900;
+    text-align: center;
+
+    color: white;
+    border-radius: 50px;
+}
+
+p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+#refresh{
+    background-color: rgba(60, 38, 224, 0.995);
+    border:none;
+    padding: 10px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-weight: 900;
+    text-align: center;
+
+    color: white;
+    border-radius: 50px;
+}
+footer p {
+    color:#d9e1e9;
+}
+footer a {
+    color: #d9e1e9; /* Change the color to your preferred color */
+    text-decoration: none; /* Remove the underline */
+}
+footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+#result{
+    font-weight: bold;
+    font-size:x-large ;
+    color: #153558;
+    margin-top: 10px;
+}
